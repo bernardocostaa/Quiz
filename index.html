@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <title>Quiz</title>
+</head>
+<body class="bg-dark-vanila">
+<div class="container">
+  <div class="modal js-modal ralative fade " id="staticBackdrop" data-bs-backdrop="static" aria-labelledby="staticBackdropLabel">
+    <div class="modal-dialog modal-dialog-centered bg-quiz">
+      <div class="modal-content  p-2">
+        <div class="align-items-center d-flex flex-column gap-2">
+          <span class="bg-primary rounded-5 text-white p-2 fs-4 numero-q">1/5</span>
+          <h1 class="modal-title text-center title-questao fs-5" id="staticBackdropLabel"></h1>
+        </div>
+        <div class="modal-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column align-items-center mx-3 js-remove">
+    <h1 class="text-white text-center display-2 mb-4">Quiz</h1>
+    <div class="bg-quiz rounded-5 max-w">
+      <div class="text-center p-3">
+        <p class="font-size mb-2">Você consegue acertar as 5 perguntas?</p>
+        <button class="btn btn-primary js-btn fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Começar o Jogo</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/quiz.js"></script>
+  <script src="assets/js/js.js"></script>
+</body>
+</html>
