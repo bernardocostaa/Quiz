@@ -1,6 +1,6 @@
 let questoes = [
   {
-    questao:'Qual linguagem de programação fica responsável pelo estilo do site?',
+    questao:'Qual dessas opções abaixo fica responsável pelo estilo do site?',
     opicao:[
       'HTML5',
       'CSS3',
